@@ -1,0 +1,37 @@
+.nav {
+  padding-top: 60px;
+}
+
+.nav__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  color: $color-white;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.navigation-list__item{
+
+
+  &:hover{
+
+    border-bottom: 1px solid #fff;
+    transition: all 0.2s ease-in;
+  }
+}
+.nav-btn {
+  color: $color-white;
+  padding: 12px 31px;
+  background-color: transparent;
+  border: 1px solid #fff;
+  border-radius: 6px;
+
+  &:hover{
+    color: #ed4c5c;
+    background-color: #fff;
+    transition: all 0.2s ease-in;
+  }
+}

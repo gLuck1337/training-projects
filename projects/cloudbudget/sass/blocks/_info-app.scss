@@ -1,0 +1,36 @@
+.info-app {
+  margin-bottom: 100px;
+}
+
+.info-app__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.info-app__text {
+  max-width: 445px;
+  color: #000;
+  font-weight: 500;
+
+  p {
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+}
+.info-app__title {
+  font-size: 36px;
+  margin-bottom: 30px;
+  line-height: 42px;
+  font-weight: 700;
+}
+.info-app__link {
+  color: #ed4c5c;
+}
+.info-app--img {
+  transition: transform .2s ease-in ;
+
+  &:hover{
+    transform: scale(1.2) ; 
+    transition: transform .2s ease-in ;
+  }
+}

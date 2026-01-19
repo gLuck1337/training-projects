@@ -1,0 +1,37 @@
+.form-main {
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+.app__text--margin {
+  margin-right: 125px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  input {
+    width: 540px;
+    height: 60px;
+    padding: 21px;
+
+    border-radius: 6px;
+    border: 1px solid #333;
+    margin-bottom: 25px;
+    &::placeholder {
+      color: rgba(19, 39, 67, 0.5);
+      font-family: Roboto;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+  }
+}
+.form__btn {
+    width: 160px;
+  color: #fff;
+  padding: 17px 40px;
+  background-color: #ed4c5c;
+  border: 1px solid #ed4c5c;
+  border-radius: 6px;
+}
