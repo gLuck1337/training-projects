@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Judson:ital,wght@0,400;0,700;1,400&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+body {
+  background-color: #000;
+  font-family: "Open Sans";
+}
+
+.navigation {
+  padding: 54px 0;
+}
+.container {
+  width: 1240px;
+  margin: 0 auto;
+}
+.navigation-menu {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigation-menu-link {
+  color: #f2f2f2;
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 400;
+}
+.navigation-menu-link-title {
+  color: #ffff;
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 900;
+}
+
+.bg-wrapper {
+  width: 100%;
+  height: 1091px;
+  background-image: url(/img/main-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.main-title {
+  font-family: "Judson";
+  color: #f2f2f2;
+  font-size: 220px;
+  line-height: 220px;
+  padding-top: 234.3px;
+  text-align: center;
+}
+.authors {
+  margin: 122px 0 113px 0;
+}
+.authors-list {
+  display: flex;
+  justify-content: center;
+  gap: 41px;
+}
+
+.authors-post,
+.authors-name {
+  color: #d6d0ce;
+  text-align: center;
+}
+.authors-post {
+  opacity: 0.7;
+  font-size: 16px;
+  line-height: 16px;
+  margin-bottom: 10px;
+}
+.authors-name {
+  font-family: "Judson";
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 32px;
+  font-style: italic;
+}
+.gallery-img {
+  width: 1029px;
+}
+.gallery-img:first-child {
+  margin-bottom: 214px;
+}
+
+.gallery-img-left {
+  float: right;
+  margin-bottom: 200px;
+}
+.nature {
+  margin-top: 160px;
+}
+.nature-title {
+  color: #ffff;
+  font-family: "Judson";
+  font-size: 220px;
+  line-height: 220px;
+  font-weight: 400;
+
+  text-align: center;
+
+  margin-bottom: 100px;
+}
+
+.img-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.footer {
+  padding: 54px 0;
+}
+.footer-menu {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-menu-link,
+.footer-menu-date {
+  color: #f2f2f2;
+}
+
+.footer-menu-link {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 18px;
+
+  margin-left: 14px;
+}
+.footer-menu-date {
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 400;
+
+  margin-right: 14px;
+}
