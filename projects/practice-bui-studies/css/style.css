@@ -18,10 +18,6 @@ body {
   padding: 15px 0;
 }
 
-.navigation__logo {
-}
-.navigation__logo-img {
-}
 .navigation__menu {
   display: flex;
   align-items: center;
