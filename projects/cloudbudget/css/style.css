@@ -85,7 +85,7 @@ body {
 .main__btn {
   font-family: "Roboto";
   display: inline-block;
-  color: #ED4C5C;
+  color: #ed4c5c;
   padding: 17px 30px;
   font-size: 14px;
   text-transform: uppercase;
@@ -93,3 +93,37 @@ body {
   border-radius: 6px;
 }
 /* main end */
+
+/* management start */
+.management {
+  display: flex;
+  padding: 100px 0;
+}
+
+.management__info {
+  width: 445px;
+  padding-top: 30px;
+  margin-right: 125px;
+}
+.management__title {
+  font-family: "Roboto";
+  font-size: 36px;
+
+  margin-bottom: 50px;
+}
+.management__text {
+  font-family: "Roboto";
+  font-size: 14px;
+  line-height: 140%;
+  margin-bottom: 15px;
+}
+.management__link {
+  font-family: "Roboto";
+  font-size: 14px;
+  color: #ed4c5c;
+}
+.management__img {
+  
+}
+
+/* management end*/
