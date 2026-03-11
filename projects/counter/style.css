@@ -34,6 +34,7 @@ body {
 .counter__button-minus.disabled {
   border: 1px solid #c4c4c4;
   color: #c4c4c4;
+  cursor: default;
 }
 
 .counter__input {
